@@ -5,20 +5,17 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * For mathematical explanation see:
- * <a href="http://algorithms.giccon.org/wp-content/uploads/2012/07/proof-of-the-multiplication-game.pdf">
- * proof of the multiplication game
- * </a>
+ * For mathematical explanation see document: "/resources/challenges/110505 - A Multiplication Game - Proof.pdf"
  */
 class MultiplicationGameTest {
-    private static enum Player {
+    private enum Player {
         STAN, OLLIE
     }
 
     private static final double LOG_OF_18 = Math.log(18);
     private static final double LOG_2_DIV_LOG_18 = Math.log(2) / Math.log(18);
     private static final int[] MAX_VALUES = new int[14];
-    private static final List<Range> RANGE_VALUES = new ArrayList<Range>();
+    private static final List<Range> RANGE_VALUES = new ArrayList<>();
 
     static {
         int c = 1;

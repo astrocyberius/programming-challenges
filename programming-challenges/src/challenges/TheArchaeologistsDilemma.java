@@ -6,12 +6,15 @@ import java.util.Scanner;
 
 /**
  * The solution is as follows:
+ * <pre>
  * We define the following formula:
- * We know that: 1. P * 10^T <= 2^N < (P+1) * 10^T
+ * We know that:
+ * 1. P * 10^T <= 2^N < (P+1) * 10^T
  * 2. log2(P) + T * log2(10) <= N < log2(P+1) + T * log2(10) => derived from 1.
  * 3. We also know: (P < 10^(T-1)) <-> (log10(P) < T-1) <-> T > log10(P) + 1
  * We can now brute force on T until we know that the
  * ceil(lower part / left part of N) = floor(upper part / right part of N)
+ * </pre>
  */
 public class TheArchaeologistsDilemma {
     private static final int MAX_TIME = 5000; // try for no more than 5 seconds.

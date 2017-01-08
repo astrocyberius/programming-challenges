@@ -5,13 +5,10 @@ package challenges;
 import java.util.Scanner;
 
 /**
- * For mathematical explanation see:
- * <a href="http://algorithms.giccon.org/wp-content/uploads/2012/07/proof-of-the-multiplication-game.pdf">
- * proof of the multiplication game
- * </a>
+ * For mathematical explanation see document: "/resources/challenges/110505 - A Multiplication Game - Proof.pdf"
  */
 public class MultiplicationGame {
-    private static enum Player {
+    private enum Player {
         STAN, OLLIE
     }
 
