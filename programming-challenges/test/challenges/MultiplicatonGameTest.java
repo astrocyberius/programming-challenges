@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * For mathematical explanation see document: "/resources/challenges/110505 - A Multiplication Game - Proof.pdf"
+ * For mathematical explanation see document: "/resources/challenges/A Multiplication Game - Proof.pdf"
  */
 class MultiplicationGameTest {
     private enum Player {

@@ -5,7 +5,7 @@ package challenges;
 import java.util.Scanner;
 
 /**
- * For mathematical explanation see document: "/resources/challenges/110505 - A Multiplication Game - Proof.pdf"
+ * For mathematical explanation see document: "/resources/challenges/A Multiplication Game - Proof.pdf"
  */
 public class MultiplicationGame {
     private enum Player {
