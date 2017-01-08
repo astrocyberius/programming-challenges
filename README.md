@@ -2,7 +2,7 @@
 Solving all kinds of programming problems and puzzles.
 
 ## Modules
-### programming-challanges
+### programming-challenges
 1. [Programming Challenges](http://www.programming-challenges.com/pg.php?page=index)
 2. [UVa Online Judge](https://uva.onlinejudge.org)
 
