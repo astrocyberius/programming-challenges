@@ -1,5 +1,5 @@
 # Programming For Fun
-Solving all kinds of programming problems and puzzles.
+Solutions to programming problems and puzzles.
 
 ## Modules
 ### programming-challenges
