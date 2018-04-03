@@ -1,4 +1,4 @@
-# Programming For Fun
+# Programming Challenges
 Solutions to programming problems and puzzles.
 
 ## Modules
